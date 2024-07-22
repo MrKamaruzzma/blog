@@ -136,11 +136,7 @@ function FormAddPost() {
 }
 
 function List() {
-  const { posts, setPosts } = usePosts();
-  function hadleDel(i) {
-    const newPost = posts.filter((i) => i !== posts.i);
-    setPosts(newPost);
-  }
+  const { posts } = usePosts();
   return (
     <ul>
       {posts.map((post, i) => (
