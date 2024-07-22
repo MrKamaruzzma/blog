@@ -147,7 +147,7 @@ function List() {
         <li key={i}>
           <h3>{post.title}</h3>
           <p>{post.body}</p>
-          <button onClick={hadleDel(i)}>del</button>
+          
         </li>
       ))}
     </ul>
